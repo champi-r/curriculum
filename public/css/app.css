@@ -1,0 +1,94 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* RESET */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBALS */
+html{
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: #262334;
+    min-height: 100vh;
+    color: #A3F2F5;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+aside{
+    background-color: #241B2E;
+    width: 30rem;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin-left: 30rem;
+}
+
+/* UTILS */
+.padding{
+    padding: 2.5rem;
+}
+
+/* ASIDE */
+.foto{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    align-self: center;
+    margin: 2.3rem 0;
+}
+.nombre{
+    color: #ffffff;
+    font-size: 2.8em;
+}
+.puesto {
+    color: #FFDE59;
+    font-size: 2.4em;
+    margin: .7rem 0;
+    
+}
+.bloque__titulo{
+    color: #FFDE59;
+    font-size: 1.9em;
+}
+.bloque__texto,
+.lista{
+    font-size: 1.4em;
+}
+
+/* MAIN */
+.seccion__titulo{
+    color: #8988AA;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.seccion__subtitulo{
+    color: #B5B7F7;
+    font-size: 2em;
+}
+.seccion__descripcion{
+    color: #E3BD4F;
+    font-size: 1.7em;
+}
+.seccion__texto{
+    font-size: 1.4em;
+}
