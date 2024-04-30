@@ -44,7 +44,7 @@ main{
 
 /* UTILS */
 .padding{
-    padding: 2.5rem;
+    padding: 2.8rem;
 }
 
 /* ASIDE */
@@ -66,6 +66,9 @@ main{
     margin: .7rem 0;
     
 }
+.bloque{
+    margin: 1rem 0;
+}
 .bloque__titulo{
     color: #FFDE59;
     font-size: 1.9em;
@@ -76,19 +79,23 @@ main{
 }
 
 /* MAIN */
+.seccion{
+    margin-bottom: 2.5rem;
+    padding: 0 15rem;
+}
 .seccion__titulo{
     color: #8988AA;
     text-transform: uppercase;
     font-size: 2.5em;
 }
-.seccion__subtitulo{
+.registro__titulo{
     color: #B5B7F7;
     font-size: 2em;
 }
-.seccion__descripcion{
+.registro__subtitulo{
     color: #E3BD4F;
     font-size: 1.7em;
 }
-.seccion__texto{
+.registro__texto{
     font-size: 1.4em;
 }
