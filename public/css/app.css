@@ -32,7 +32,9 @@ img{
 }
 aside{
     background-color: #241B2E;
-    width: 30rem;
+    max-width: 30rem;
+    min-width: 25rem;
+    width: 30%;
     height: 100%;
     position: fixed;
     display: flex;
@@ -54,9 +56,9 @@ main{
     border-radius: 50%;
     overflow: hidden;
     align-self: center;
-    margin: 2.3rem 0;
 }
 .nombre{
+    margin-top: 1.2rem;
     color: #ffffff;
     font-size: 2.8em;
 }
@@ -81,20 +83,25 @@ main{
 /* MAIN */
 .seccion{
     margin-bottom: 2.5rem;
-    padding: 0 15rem;
+    padding: 0 10%;
 }
 .seccion__titulo{
     color: #8988AA;
     text-transform: uppercase;
     font-size: 2.5em;
+    margin-bottom: 1.3rem;
 }
 .registro__titulo{
     color: #B5B7F7;
     font-size: 2em;
+    margin: 1.4rem 0 .7rem 0;
+
 }
 .registro__subtitulo{
     color: #E3BD4F;
     font-size: 1.7em;
+    margin: .8rem 0 .3rem 0;
+
 }
 .registro__texto{
     font-size: 1.4em;
